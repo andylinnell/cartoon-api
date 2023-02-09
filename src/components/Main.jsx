@@ -1,9 +1,13 @@
 import { useState, useEffect } from "react"
 import ShowCard from "./ShowCard";
 
+
 export default function Main () {
     const [cartoons, setCartoons] = useState();
     const [dimension, setDimension] = useState('cartoons2D')
+
+
+
 
     useEffect(() => {
         fetch(`https://api.sampleapis.com/cartoons/${dimension}`)
@@ -31,6 +35,10 @@ export default function Main () {
                 })}
             </section>)
             }
+
         </article>
+
     )
 }
+
+
