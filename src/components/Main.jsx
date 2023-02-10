@@ -42,3 +42,6 @@ export default function Main () {
 }
 
 
+// scroll header
+// modal not centered
+// modal wot close

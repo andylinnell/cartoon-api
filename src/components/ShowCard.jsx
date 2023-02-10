@@ -41,7 +41,7 @@ export default function ShowCard({cartoon}) {
             <p>{cartoon.rating}</p>
             <details>
                 <summary>Info</summary>
-                <p>Runtime: {cartoon.runtime_in_minutes}</p>
+                <p>Minutes: {cartoon.runtime_in_minutes}</p>
                 <p>Episodes: {cartoon.episodes}</p>
                 <p>Creator: {cartoon.creator}</p>
             </details>
